@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/rkaw92/warsawjs-workshop-17-git/issues"
   },
-  "homepage": "https://github.com/rkaw92/warsawjs-workshop-17-git#readme"
+  "homepage": "https://github.com/rkaw92/warsawjs-workshop-17-git#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
