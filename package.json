@@ -24,5 +24,8 @@
   "homepage": "https://github.com/rkaw92/warsawjs-workshop-17-git#readme",
   "devDependencies": {
     "eslint": "^4.18.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
