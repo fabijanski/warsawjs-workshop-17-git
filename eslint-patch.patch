@@ -1,0 +1,25 @@
+From a7ea3c661b80701a25372c495ee7230f5fad620b Mon Sep 17 00:00:00 2001
+From: Robert Kawecki <robert+github@rkaw.pl>
+Date: Sun, 25 Feb 2018 03:24:08 +0100
+Subject: [PATCH] Add an eslint strict mode rule
+
+From now on, JS code shall be required to enable strict mode globally, per file.
+For #2
+---
+ .eslintrc.yaml | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/.eslintrc.yaml b/.eslintrc.yaml
+index 0c8394c..925eea8 100644
+--- a/.eslintrc.yaml
++++ b/.eslintrc.yaml
+@@ -1,3 +1,7 @@
+ env:
+   browser: true
+   node: true
++rules:
++  strict:
++    - error
++    - global
+--
+2.11.0
